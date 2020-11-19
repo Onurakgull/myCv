@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0px;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#C6ECEA), to(#135a56));
+  background: linear-gradient(#C6ECEA, #135a56);
+  padding: 40px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .left {
+  width: 30%;
+  border-radius: 30px 0 0 30px;
+  height: 100%;
+  background-color: #444346;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.container .left a img {
+  width: 200px;
+  border-radius: 30px;
+}
+
+.container .left .contact .title {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-right: 30px;
+  padding-bottom: 10px;
+  color: #170d64;
+  position: relative;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.container .left .contact .title::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  width: 35px;
+  height: 3px;
+  background: #3525af;
+}
+
+.container .left .contact .contact-main ul {
+  margin-left: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .left .contact .contact-main ul li {
+  margin-bottom: 10px;
+}
+
+.container .left .contact .contact-main ul li .skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .left .contact .contact-main ul li .skill a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  word-break: break-word;
+  margin-right: 18px;
+  -webkit-box-shadow: 15px 10px 10px -8px rgba(198, 236, 234, 0.5);
+          box-shadow: 15px 10px 10px -8px rgba(198, 236, 234, 0.5);
+  -webkit-transition: 300ms border;
+  transition: 300ms border;
+}
+
+.container .left .contact .contact-main ul li .skill a:hover {
+  border: 1px solid black;
+}
+
+.container .left .contact .contact-main ul li .skill h6 {
+  font-size: 16px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dfd5d5;
+}
+
+.container .right {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .right .header {
+  background: #444346;
+  padding: 15px 30px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.container .right .header .name-role .name {
+  margin: 20px 0 0 20px;
+  font-size: 65px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #170d64;
+}
+
+.container .right .header .name-role .job {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.container .right .header .name-role .about {
+  line-height: 26px;
+}
+
+.container .right .inner {
+  padding: 30px;
+  background: #ffffff;
+}
+
+.container .right .inner .exp .title {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-right: 30px;
+  padding-bottom: 10px;
+  color: #170d64;
+  position: relative;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.container .right .inner .exp .title::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  width: 35px;
+  height: 3px;
+  background: #3525af;
+}
+
+.container .right .inner .exp .exp-wrap ul li .li-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.container .right .inner .exp .exp-wrap ul li .li-wrap .date {
+  width: 125px;
+  color: #9153c9;
+}
+
+.container .right .inner .exp .exp-wrap ul li .li-wrap .info {
+  width: 700px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.container .right .inner .exp .exp-wrap ul li .li-wrap .info::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #9153c9;
+}
+
+.container .right .inner .exp .exp-wrap ul li .li-wrap .info::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 2px;
+  height: 90%;
+  border-radius: 50%;
+  background: #9153c9;
+}
+
+.container .right .inner .education {
+  margin-top: 30px;
+}
+
+.container .right .inner .education .title {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-right: 30px;
+  padding-bottom: 10px;
+  color: #170d64;
+  position: relative;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.container .right .inner .education .title::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  width: 35px;
+  height: 3px;
+  background: #3525af;
+}
+
+.container .right .inner .education .education-wrap ul li .li-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.container .right .inner .education .education-wrap ul li .li-wrap .date {
+  width: 125px;
+  color: #9153c9;
+}
+
+.container .right .inner .education .education-wrap ul li .li-wrap .info {
+  width: 700px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.container .right .inner .education .education-wrap ul li .li-wrap .info::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #9153c9;
+}
+
+.container .right .inner .education .education-wrap ul li .li-wrap .info::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 2px;
+  height: 90%;
+  border-radius: 50%;
+  background: #9153c9;
+}
+/*# sourceMappingURL=main.css.map */
